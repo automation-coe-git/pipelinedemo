@@ -26,6 +26,7 @@ public class NewTest {
 	  driver.findElement(By.xpath("//input[@name='psw']")).sendKeys("pass");
 	  Thread.sleep(5000);
 	  driver.quit();
+	  System.out.println("hello");
 	  
 	  
   }
