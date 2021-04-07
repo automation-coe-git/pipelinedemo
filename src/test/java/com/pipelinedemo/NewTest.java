@@ -14,7 +14,7 @@ public class NewTest {
 	  
 	  WebDriverManager.chromedriver().setup();
 	  driver = new ChromeDriver();
-	  driver.get("http://localhost:9999/JenkinsWar/");
+	  driver.get("http://localhost:8082/JenkinsWar/");
 	  driver.manage().window().maximize();
 	  Thread.sleep(3000);
 	  driver.findElement(By.xpath("//button[text()='Login']")).click();
